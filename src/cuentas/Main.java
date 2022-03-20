@@ -1,20 +1,29 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 
 
 package cuentas;
 
-
+/**
+ * Esta es la clase principal del proyecto Deposito, que corresponde con la Tarea04 de la
+ * asignatura Entornos de Desarrollo de DAW.
+ *
+ * @author RafaelIzaguirre
+ * @version 1.0
+ * @since 20.03.2022
+ **/
 public class Main {
 
+
     public static void main(String[] args) {
+
         operativa_cuenta(0);
     }
 
     private static void operativa_cuenta(float cantidad) {
+        
+        /**
+         * Metodo obtenido de la refactorización
+         */ 
         CCuenta cuenta1;
         double saldoActual;
 
